@@ -39,7 +39,8 @@ numbers = [1,2,3,4,5,6,7,8,9,10]
 
 # Problem 8
 # Use a for-in loop to iterate over the `numbers` array and print each number.
-
+for num in numbers:
+    print(num)
 
 # Problem 9
 # Create an empty array called `even_numbers`.
