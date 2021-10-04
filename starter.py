@@ -8,7 +8,7 @@ fav_num = 7
 
 # PROBLEM 3
 # Create a variable that holds a boolean value representing if your hair is brown.
-
+brow_hair = True
 
 # PROBLEM 4
 # Print your first name, by printing the variable created in problem 1.
