@@ -32,7 +32,7 @@ colors = ['blue', 'orange', 'green', 'black', 'red']
 
 # Problem 7
 # Using bracket syntax, print out the last item in your colors array.
-
+print(colors[4])
 
 # For problems 8-9, use the following line of code:
 numbers = [1,2,3,4,5,6,7,8,9,10]
