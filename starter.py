@@ -4,7 +4,7 @@ first_name = 'Dillon'
 
 # PROBLEM 2
 # Create a variable that holds the value of your favorite number.
-
+fav_num = 7
 
 # PROBLEM 3
 # Create a variable that holds a boolean value representing if your hair is brown.
