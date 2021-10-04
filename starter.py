@@ -94,7 +94,7 @@ print(friends)
 
 # Problem 13
 # Print out the total amount of elements in the `friends` array. The Python method you are looking for is similar to the JavaScript property `.length`.
-
+print(len(friends))
 
 # Problem 14
 # Add a name into the third position in the array (index 2). Make sure you are not overwriting the value that is already there.
