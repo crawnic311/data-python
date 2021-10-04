@@ -12,14 +12,18 @@ brow_hair = True
 
 # PROBLEM 4
 # Print your first name, by printing the variable created in problem 1.
-
+print(first_name)
 
 # PROBLEM 5
 #  Create a variable called `loves_code` and set it equal to true. 
 #  Check to see if `loves_code` is equal to true or false. 
 #  If it is true, print "I love to code!"
 #  If it is not, print "Coding has it's challenges."
-
+loves_code = True
+if loves_code == True:
+    print('I love to code')
+else:
+    print('Coding has it\'s challenges')
 
 # PROBLEM 6
 # Create an array called `colors` and set it equal to a list of at least five colors.
