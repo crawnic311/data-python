@@ -45,7 +45,13 @@ for num in numbers:
 # Problem 9
 # Create an empty array called `even_numbers`.
 # Use a for-in loop to iterate over the `numbers` array, and if a number is even, add  it to the `even_numbers` array.
+even_numbers = []
 
+for even in numbers:
+    if even % 2 == 0:
+        even_numbers.append(even)
+
+print(even_numbers)
 
 # Problem 10
 # Do not edit the code below.
