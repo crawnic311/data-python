@@ -4,6 +4,13 @@ cupcakes_invoices = open('CupcakeInvoices.csv')
 #    print(line)
 
 
+#for line in cupcakes_invoices:
+#    line_split = line.rstrip('\r\n').split(",") 
+#    print(line_split[2])  
+
 for line in cupcakes_invoices:
     line_split = line.rstrip('\r\n').split(",") 
-    print(line_split[2])  
+    quant = float(line_split[3])
+    price = float(line_split[4])
+    total = quant * price
+    print(total)
