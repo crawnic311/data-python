@@ -73,7 +73,14 @@ else:
 # Problem 11
 # Create a variable called 'changeMyMind' and set it equal to true. 
 # Check to see if changeMyMind is set to true or false, if it is true, change the status to false, if it is false, change the status to true.
+changeMyMind = True
 
+if changeMyMind:
+    changeMyMind = False
+else:
+    changeMyMind = True
+
+print(changeMyMind)
 
 # ADVANCED
 
