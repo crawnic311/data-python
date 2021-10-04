@@ -59,7 +59,16 @@ score = 74
 # Do not edit the code above.
 
 # Determine if the letter grade of the given variable 'score'. If the variable is a 90 or above, console-log an 'A', between 80 and 89, console-log a 'B', between 70 and 79, 'C', between 60 and 69, 'D', and anything below 60 should console-log an 'F'.
-
+if score >= 90:
+    print('A')
+elif score >= 80:
+    print('B')
+elif score >= 70:
+    print('C')
+elif score >= 60:
+    print('D')
+else:
+    print('F')
 
 # Problem 11
 # Create a variable called 'changeMyMind' and set it equal to true. 
